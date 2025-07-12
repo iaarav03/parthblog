@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_title_section2_points",
+  "info": {
+    "displayName": "section2Points"
+  },
+  "options": {},
+  "attributes": {
+    "amenity_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.section2-amenity-item"
+    }
+  },
+  "config": {}
+}

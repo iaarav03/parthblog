@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_title_point_items",
+  "info": {
+    "displayName": "pointItem"
+  },
+  "options": {},
+  "attributes": {
+    "minutes": {
+      "type": "integer",
+      "required": true
+    },
+    "icon_type": {
+      "type": "enumeration",
+      "enum": [
+        "highway",
+        "metro_station",
+        "airport",
+        "bullet_train_station",
+        "hospital",
+        "mall",
+        "school",
+        "university",
+        "gym",
+        "restaurant",
+        "park",
+        "beach",
+        "temple",
+        "generic_location"
+      ],
+      "default": "generic_location",
+      "required": true
+    }
+  },
+  "config": {}
+} 

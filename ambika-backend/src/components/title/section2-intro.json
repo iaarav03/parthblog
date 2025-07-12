@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_title_section2_intros",
+  "info": {
+    "displayName": "section2Intro"
+  },
+  "options": {},
+  "attributes": {
+    "TItle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "short_text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "real_estate2s",
+  "info": {
+    "singularName": "real-estate2",
+    "pluralName": "real-estate2s",
+    "displayName": "real-estate2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "short_description": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "below_icon_text": {
+      "type": "text"
+    },
+    "sections": {
+      "type": "component",
+      "component": "title.sections",
+      "repeatable": false
+    },
+    "section2_intro": {
+      "type": "dynamiczone",
+      "components": [
+        "title.section2-intro"
+      ]
+    },
+    "section2_media": {
+      "type": "dynamiczone",
+      "components": [
+        "title.section2-media"
+      ]
+    },
+    "section2_points": {
+      "type": "dynamiczone",
+      "components": [
+        "title.section2-points"
+      ]
+    },
+    "section3_intro": {
+      "type": "dynamiczone",
+      "components": [
+        "title.section3-intro"
+      ]
+    },
+    "section3_points": {
+      "type": "dynamiczone",
+      "components": [
+        "title.section3-points"
+      ]
+    }
+  }
+}

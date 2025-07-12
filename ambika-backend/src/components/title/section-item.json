@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_title_section_items",
+  "info": {
+    "displayName": "sectionItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "required": true
+    }
+  },
+  "config": {}
+} 

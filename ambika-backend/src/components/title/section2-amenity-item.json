@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_title_section2_amenity_items",
+  "info": {
+    "displayName": "section2AmenityItem"
+  },
+  "options": {},
+  "attributes": {
+    "point_text": {
+      "type": "string",
+      "required": true
+    },
+    "icon_type": {
+      "type": "enumeration",
+      "enum": [
+        "gym",
+        "swimming_pool",
+        "parking",
+        "security",
+        "elevator",
+        "garden",
+        "playground",
+        "clubhouse",
+        "sports_complex",
+        "spa",
+        "restaurant",
+        "shopping",
+        "library",
+        "wifi",
+        "power_backup",
+        "water_supply",
+        "waste_management",
+        "fire_safety",
+        "cctv",
+        "intercom",
+        "generic_amenity"
+      ],
+      "default": "generic_amenity",
+      "required": true
+    }
+  },
+  "config": {}
+} 

@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "real_estates",
+  "info": {
+    "singularName": "real-estate",
+    "pluralName": "real-estates",
+    "displayName": "real-estate"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "property_name": {
+      "type": "string",
+      "required": true
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "hero_banner": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Property_Type": {
+      "type": "string"
+    },
+    "detail1": {
+      "type": "string"
+    },
+    "detail1_desc": {
+      "type": "text"
+    },
+    "detail2": {
+      "type": "text"
+    },
+    "detail2_desc": {
+      "type": "text"
+    },
+    "detail3": {
+      "type": "string"
+    },
+    "detail3_desc": {
+      "type": "text"
+    },
+    "detail4": {
+      "type": "string"
+    },
+    "detail4_desc": {
+      "type": "text"
+    },
+    "detail5": {
+      "type": "string"
+    },
+    "detail5_desc": {
+      "type": "text"
+    },
+    "overview_para": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

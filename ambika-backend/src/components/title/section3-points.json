@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_title_section3_points",
+  "info": {
+    "displayName": "section3Points"
+  },
+  "options": {},
+  "attributes": {
+    "point_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "title.point-item"
+    }
+  },
+  "config": {}
+}

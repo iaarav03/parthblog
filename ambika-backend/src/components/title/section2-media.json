@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_title_section2_medias",
+  "info": {
+    "displayName": "section2Media"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_title_section3_intros",
+  "info": {
+    "displayName": "section3Intro"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
